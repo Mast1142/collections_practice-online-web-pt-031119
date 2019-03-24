@@ -55,11 +55,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |x, index|
-      if index = 1
-        next
-      x << "s"
-      x
+  [1,2].each_with_index.collect{|element, index| }
+#array.each_with_index.collect do |x, index|
+      #if index = 1
+        #next
+      #x << "s"
+      #x
     end
   end
 end
