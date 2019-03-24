@@ -42,10 +42,10 @@ end
 
 def find_a(array)
   a = []
-  array.each do |x|
+  array.select do |x|
     #binding.pry
 
-    #a << x.start_with?(a) == true
+    a << x.start_with?("a") == true
   end
   a
 end
