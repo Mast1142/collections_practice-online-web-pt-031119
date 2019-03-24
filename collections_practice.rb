@@ -61,6 +61,4 @@ def add_s(array)
         #next
       #x << "s"
       #x
-    end
-  end
 end
