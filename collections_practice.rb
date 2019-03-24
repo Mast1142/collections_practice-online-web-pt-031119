@@ -41,12 +41,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  a = []
   array.select do |x|
-    a << x.start_with?("a")
-    binding.pry
+    x.start_with?("a")
+    #binding.pry
   end
-  a
 end
 
 def sum_array(array)
