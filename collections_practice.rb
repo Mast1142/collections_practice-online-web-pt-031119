@@ -60,6 +60,5 @@ def add_s(array)
     x << "s"
     x
     binding.pry
-    end
   end
 end
