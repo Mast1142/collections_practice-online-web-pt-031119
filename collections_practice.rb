@@ -56,7 +56,11 @@ end
 
 def add_s(array)
   array.collect do |x|
-    x << "s"
-    x
+    if arr[2] == "feet"
+      next
+      
+      x << "s"
+      x
+    end
   end
 end
