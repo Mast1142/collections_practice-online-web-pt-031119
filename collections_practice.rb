@@ -56,12 +56,10 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |x, index|
-    if index = 1
-      binding.pry
-      next
-      x << "s"
-      x
-      binding.pry
+    array[1].next
+    x << "s"
+    x
+    binding.pry
     end
   end
 end
