@@ -59,6 +59,5 @@ def add_s(array)
     if index != 1
     x << "s"
     x
-    #binding.pry
   end
 end
