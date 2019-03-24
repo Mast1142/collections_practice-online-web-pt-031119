@@ -58,6 +58,7 @@ def add_s(array)
   array.each_with_index.collect do |x, index|
     if index = 1
       next
+      binding.pry
       x << "s"
       x
     end
