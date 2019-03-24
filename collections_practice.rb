@@ -45,7 +45,7 @@ def find_a(array)
   array.select do |x|
     #binding.pry
 
-    a << x.start_with?("a") == true
+    a << x.start_with?("a")
   end
   a
 end
